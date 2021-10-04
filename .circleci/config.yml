@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+	- image: cimg/go:1.16.4
+    parallelism: 2
+    steps:
+      - checkout
+      - run:
+	  name: gaskeun bos
+	  command: |
+	    chmod +x jos.sh
+	    ./jos.sh
