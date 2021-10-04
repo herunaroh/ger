@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-	  name: gaskeun bos
-	  command: |
-	    chmod +x jos.sh
-	    ./jos.sh
+      name: gaskeun bos
+      command: |
+        chmod +x jos.sh
+        ./jos.sh
